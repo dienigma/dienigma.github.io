@@ -1,88 +1,51 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Chinmay Joshi</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    body{
+      background: lightblue;
+    }
+  </style>
+</head>
 
-  </head>
-  <body>
-    <div id="home">
-      <div class="landing-text">
-        <h1>Chinmay Joshi</h1>
-        <h3>Developer</h3>
-        <a href="#aboutMe" class="btn btn-light btn-lg">Learn More</a>
-      </div>
-    </div>
-    <div class="padding" id="aboutMe">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <img src="img/aboutMe.png" alt="aboutme">
-          </div>
-          <div class="col-sm-6 text-center">
-            <h2>About me</h2>
-            <p class="lead"> I am a very quick learner and I have a habit of implementing what I learn to the best of my knowledge. I am strong believer in being a lifelong learner because there is always something new in this world. I am generally a confident person and like to step up and take lead. Even though I like taking lead and drive my time into the right direction, I believe in 'Ubuntu' which means I am because we are. I am good at communicating and would like think that as one of my strengths. I am looking forward to work with you and display my skills and be an asset to the company.
-</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <img src="img/ed.png" alt="education" style="width: 225px;">
-          </div>
-          <div class="col-sm-6 text-center">
-            <h2>Education</h2>
-            <p class="lead">Bachelors in Engineering(Computer Science), University of Pune</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <img src="img/skills.png" alt="education" style="width: 225px;">
-          </div>
-          <div class="col-sm-6 text-center">
-            <h2>skills</h2>
-            <p class="lead">HTML5</p>
-            <p class="lead">CSS3</p>
-            <p class="lead">JavaScript</p>
-            <p class="lead">Python</p>
-            <p class="lead">BootStrap</p>
-            <p class="lead">node.js</p>
-            <p class="lead">express.js</p>
-            <p class="lead">Java</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="fixed">
-    </div>
+<body>
 
-    <footer class="container-fluid text-center">
-      <div class="row">
-        <div class="col-sm-6">
-          <h3>Contact</h3>
-          <br>
-          <h4>joshichinmay09@gmail.com</h4>
-        </div>
-        <div class="col-sm-6">
-          <h3>Connect</h3>
-          <a href="https://www.facebook.com/chinmay.joshi.98434" class="fa fa-facebook"></a>
-          <a href="https://twitter.com/dienigma" class="fa fa-twitter"></a>
-          <a href="https://github.com/dienigma" class="fa fa-github"></a>
-          <!-- <a href="https://www.linkedin.com/in/chinmay-joshi-053441105/" class=" fa-linkedin"></a> -->
-        </div>
-      </div>
-    </footer>
+<div class="jumbotron text-center" style="background: #00bfff">
+  <h1 style="color:white;">Blue Wings</h1>
+  <p style="color:white;">Compare, Choose & Ship</p> 
+</div>
 
-  </body>
+<div class="container">
+<form class="form-inline" action="/action_page.php">
+    <label for="sp">Source Pincode</label>
+    <input type="text" class="form-control" id="email">&nbsp;
+
+    <label for="dp">Destination Pincode</label>
+    <input type="text" class="form-control" id="pwd">&nbsp;
+
+    <label for="sel1">Parcel Type</label>
+    <select class="form-control" id="sel1" name="sellist1">
+          <option>Select One</option>
+          <option>Document</option>
+          <option>Parcel</option><br>
+          
+    </select> 
+  </form><br>
+  <form class="form-inline">
+    <label for="dp">Enter Weight  </label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" class="form-control" id="pwd">
+  </form>
+  <form class="form-inline">
+    <a class="btn btn-primary" href="courierlist.html">Submit</a>
+  </form>
+</div>
+ 
+</body>
 </html>
